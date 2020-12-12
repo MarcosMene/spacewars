@@ -76,7 +76,7 @@ function moveLaser(laser) {
             }
         })
 
-        if(xPosition === (windowsize) ){
+        if(xPosition === 500){
             laser.remove();
         } else {
             laser.style.left = `${xPosition + 8}px`;
